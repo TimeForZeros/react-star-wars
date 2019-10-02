@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { getAllStarships } from "./services/sw-api";
+import StarshipPage from './pages/StarshipPage';
 import { Link } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
