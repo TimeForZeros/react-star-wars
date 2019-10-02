@@ -21,6 +21,24 @@
   color: #09d3ac;
 }
 
+.item-container {
+display: flex;
+flex-wrap: wrap;
+}
+
 .item {
   padding: 10px;
+  background-color: green;
+  margin: 5px;
+  
+}
+.item a:link, :visited {
+  color: white;
+  decoration: none;
+}
+
+.return-link {
+  padding: 10px;
+  background-color: green;
+  margin: 5px;
 }

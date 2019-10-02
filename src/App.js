@@ -25,17 +25,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">Starships!</header>
+        <header className="App-header">Starships</header>
         <Switch>
         <Route
           exact
           path="/"
           render={() => (
-            <div class='item'>
+            <div class='item-container'>
               {this.state.starships.map((s, i) => (
+                <div class='item'>
                 <Link to={`/starships/${i}`} key={s.name}>
                   {s.name}
                 </Link>
+                </div>
               ))}
             </div>
           )}
